@@ -6,4 +6,4 @@ It has a custom middleware, 2 routes and a basic local DB powered by NeDB.
 
 Refer to the [API Docs](https://github.com/jgleiser/redirector/blob/master/API%20Docs.txt) to check what you can do.
 
-Use 'npm install' then 'npm start'.
+Use `npm install` then `npm start` to start the app at port 3000.
