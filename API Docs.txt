@@ -4,33 +4,33 @@ Title:          List all the aliases and websites
 URL:            /
 Mehthod:        GET
 URL Params:     None
-Data Params:    None
+Body Params:    None
 Response:       OK (200)
 
 Title:          Redirect to a website with alias
 URL:            /:alias
 Method:         GET
 URL Params:     None
-Data Params:    None
+Body Params:    None
 Response:       Found (302), Not Found (404)
 
-Title:          Create a new website alias
+Title:          Create a new alias for a website
 URL:            /:alias
 Method:         POST
 URL Params:     None
-Data Params:    website=<website>
+Body Params:    url=<website>
 Response:       OK (200), Bad Request (400)
 
 Title:          Assign new website to alias
 URL:            /:alias
 Mehotd:         PUT
 URL Params:     None
-Data Params:    website=<website>
+Body Params:    url=<website>
 Response:       OK (200), Bad Request (400), Not Found (404)
 
 Title:          Delete an alias
 URL             /:alias
 Method          DELETE
 URL Params:     None
-Data Params:    None
+Body Params:    None
 Response:       OK (200), Not Found (404)
